@@ -8,7 +8,7 @@ Skill Claude untuk membuat video komedi stickman 2D bergaya ilustrasi di **Googl
 
 <img src="assets/pemeran.png" width="90%">
 
-<sub>Pemeran tetap: Rizur, Pak Bos, dan Mira</sub>
+<sub>Pemeran tetap: Rizur, Pak Bos, dan Indah</sub>
 
 <img src="assets/contoh-video.gif" width="240">
 
@@ -24,7 +24,7 @@ Skill Claude untuk membuat video komedi stickman 2D bergaya ilustrasi di **Googl
 |---|---|---|
 | <img src="skills/stickman-flow-indo/karakter/rizur.png" width="120"> | **Rizur** | Pegawai polos yang baik hati tapi selalu apes. Gampang panik, reaksinya heboh. |
 | <img src="skills/stickman-flow-indo/karakter/pakbos.png" width="120"> | **Pak Bos** | Atasan yang sombong dan santai. Suka menyeringai dan bertolak pinggang. |
-| <img src="skills/stickman-flow-indo/karakter/mira.png" width="120"> | **Mira** | Rekan kerja Rizur yang cerdas dan jahil. Selalu memegang HP dan hobi menggosip. |
+| <img src="skills/stickman-flow-indo/karakter/indah.png" width="120"> | **Indah** | Rekan kerja Rizur yang cerdas dan jahil. Selalu memegang HP dan hobi menggosip. |
 
 Pakaian tokoh bisa berganti sesuai cerita (seragam, baju adat, kostum zaman kerajaan, dll.), tapi **wajah dan bentuk tubuhnya selalu sama**.
 
@@ -74,7 +74,7 @@ Lalu Claude akan:
 
 1. Buka Chrome dan pastikan Anda sudah login Google dan bisa membuka [Google Flow](https://flow.google.com).
 2. Di percakapan baru Claude, ketik: **`Buat video stickman: <ide cerita Anda>`**
-3. **Pemakaian pertama**: Claude otomatis menyiapkan Rizur, Pak Bos, dan Mira di akun Flow Anda (menu *Karakter*). Langkah ini **tidak memakai kredit**.
+3. **Pemakaian pertama**: Claude otomatis menyiapkan Rizur, Pak Bos, dan Indah di akun Flow Anda (menu *Karakter*). Langkah ini **tidak memakai kredit**.
 4. Baca naskah yang ditawarkan, lalu jawab **"oke"** atau minta revisi.
 5. Claude membuat klip di Flow dan melaporkan kredit yang terpakai.
 6. Izinkan Claude mengunduh klip. Kalau diminta, lampirkan file dari folder Download ke chat.
@@ -83,7 +83,7 @@ Lalu Claude akan:
 
 ### Contoh perintah lain
 - `Buat video stickman: Rizur disuruh lembur pas malam minggu`
-- `Buat video stickman: Mira bikin grup gosip kantor, ternyata Pak Bos ikut di dalamnya`
+- `Buat video stickman: Indah bikin grup gosip kantor, ternyata Pak Bos ikut di dalamnya`
 - `Buat video stickman: Rizur jadi prajurit Majapahit yang salah bawa senjata`
 
 ---
@@ -137,7 +137,7 @@ stickman-flow-indo/
     └── karakter/
         ├── rizur.png
         ├── pakbos.png
-        └── mira.png
+        └── indah.png
 ```
 
 ---

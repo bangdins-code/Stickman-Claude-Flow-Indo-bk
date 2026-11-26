@@ -1,6 +1,6 @@
 ---
 name: stickman-flow-indo
-description: Buat video Shorts stickman 2D bahasa Indonesia di Google Flow dengan tokoh tetap Rizur, Pak Bos, Mira: naskah, klip AI konsisten, suara, rakit MP4. Pakai saat diminta video stickman.
+description: Buat video Shorts stickman 2D bahasa Indonesia di Google Flow dengan tokoh tetap Rizur, Pak Bos, Indah: naskah, klip AI konsisten, suara, rakit MP4. Pakai saat diminta video stickman.
 ---
 
 # Stickman Flow Indo
@@ -24,15 +24,15 @@ User cukup mengetik **"Buat video stickman: <topik>"**. Kamu yang mengerjakan se
 |---|---|---|
 | **Rizur** (laki-laki) | Pegawai polos yang sering apes, gampang panik | `Rizur` |
 | **Pak Bos** (laki-laki) | Atasan sombong, santai, suka menyeringai | `PakBos` |
-| **Mira** (perempuan) | Rekan kerja Rizur, cerdas, jahil, selalu memegang HP | `Mira` |
+| **Indah** (perempuan) | Rekan kerja Rizur, cerdas, jahil, selalu memegang HP | `Indah` |
 
-Gambar master ada di folder `karakter/` (`rizur.png`, `pakbos.png`, `mira.png`).
+Gambar master ada di folder `karakter/` (`rizur.png`, `pakbos.png`, `indah.png`).
 
 Deskripsi berikut ditempel **apa adanya** di prompt. Jangan diparafrasekan.
 ```
 RIZUR: a simple hand-drawn stick figure man with a perfectly round pure paper-white head, two big expressive cartoon eyes with black pupils, thick expressive black eyebrows, thin black line arms and legs, small black hands. Default outfit: white long-sleeve office shirt, navy tie, black trousers, brown shoes, ID card lanyard.
 PAK BOS: a simple hand-drawn stick figure man with a perfectly round pure paper-white head, simple flat cartoon face, big cartoon eyes with half-closed smug eyelids, thick black eyebrows, a small black moustache, slightly round belly, thin black line arms and legs. Default outfit: brown batik long-sleeve shirt, dark grey trousers, black shoes.
-MIRA: a simple hand-drawn stick figure woman with a perfectly round pure paper-white face, two big expressive cartoon eyes with small eyelashes, thick black eyebrows, a simple pastel pink hijab, thin black line arms and legs, small black hands. Default outfit: mint green long-sleeve tunic blouse, long dark navy skirt, black flat shoes, smartphone.
+INDAH: a simple hand-drawn stick figure woman with a perfectly round pure paper-white face, two big expressive cartoon eyes with small eyelashes, thick black eyebrows, a simple pastel pink hijab, thin black line arms and legs, small black hands. Default outfit: mint green long-sleeve tunic blouse, long dark navy skirt, black flat shoes, smartphone.
 ```
 Pakaian boleh diganti sesuai cerita, dengan menulis pakaian baru setelah deskripsi. Wajah, kepala, dan tubuh **tidak boleh** berubah.
 
@@ -51,7 +51,7 @@ Lokasi lain bebas mengikuti cerita, tetap dengan STYLE LINE yang sama.
 ### Persiapan pertama kali (akun Flow baru)
 Buka `https://flow.google.com` → **Project baru** → menu **Karakter** → **Karakter baru**. Untuk setiap tokoh:
 1. Klik `+` atau **Upload**, lalu unggah `karakter/<nama>.png` dari folder skill. Ini cara paling konsisten. Kalau upload tidak bisa, ketik deskripsi terkunci + `Full body, front view, standing, plain cream background.` + STYLE LINE dengan model Nano Banana. Pembuatan karakter **gratis**.
-2. Beri nama persis `Rizur`, `PakBos`, `Mira`. Isi **Info karakter** dengan sifat dan ciri tetap tokoh itu.
+2. Beri nama persis `Rizur`, `PakBos`, `Indah`. Isi **Info karakter** dengan sifat dan ciri tetap tokoh itu.
 3. Klik **Selesai**. Langkah ini hanya dilakukan sekali.
 
 ---
@@ -100,7 +100,7 @@ Buka `https://flow.google.com` → **Project baru** → menu **Karakter** → **
 S01 | PAK BOS | "Rizur... jam berapa ini?"
 S02 | RIZUR   | "Maaf Pak! Macet parah, motor mogok, terus ban kempes!"
 ```
-- Gunakan satu suara khas per tokoh: Rizur tinggi dan panik, Pak Bos berat dan santai, Mira ceria dan jahil.
+- Gunakan satu suara khas per tokoh: Rizur tinggi dan panik, Pak Bos berat dan santai, Indah ceria dan jahil.
 
 ## 5. Rakit (ffmpeg)
 1. Potong setiap klip hanya pada bagian yang **lolos pemeriksaan konsistensi**. Durasi adegan = dialog + 0,3–0,5 detik.
